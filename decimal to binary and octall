@@ -1,0 +1,30 @@
+import java.util.*;
+ class Rev
+ {
+    public static void main(String args[])
+ {
+        Scanner s = new Scanner(System.in);
+int r,a=0,octb=0;
+        System.out.print("Enter a decimal number: ");
+        a = s.nextInt();
+        int originalDecimal = a
+
+        while (a > 0)
+{
+     r= a % 2;
+    a = r+a;
+    a = a / 2;
+}
+        a = originalDecimal;
+        while ( a> 0)
+{
+     r = a % 8;
+    b = r+b;
+    decimalNumber = decimalNumber / 8;
+}
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
+}
+
+ 
