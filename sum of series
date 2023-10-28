@@ -1,0 +1,19 @@
+import java.util.s;
+public class Rev
+{
+    public static void main(String args[]) 
+    {
+      int n,i,sum;
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter the first term of the series: ");
+        n= s.nextDouble();
+        for(i=1;i<=n;i++)
+        {
+        sum=sum+(i*i);
+        }
+        System.out.println("Sum of the series: " + sum);
+}
+}
+
+  
+ 
